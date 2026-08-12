@@ -24,7 +24,7 @@ This covers the entire orchestration and payment backbone:
 
 ---
 
-## Part 2 — Left for later / Person B
+## Part 2 - Under Process
 
 ### Payments — currently stubbed
 `graph/payClient.ts` has a temporary stub in place instead of the real x402 call, because the wallet isn't funded with Base Sepolia testnet ETH/USDC yet (faucets have been gated behind mainnet-balance requirements). The real implementation is commented out at the bottom of that same file — once the wallet is funded:
